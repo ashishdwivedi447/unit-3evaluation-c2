@@ -1,0 +1,32 @@
+#navbar{
+    height:80px;
+    width:100%;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+#navbar>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#navbar>ul>li{
+    margin-top: 20px;
+}
+#navbar>ul>a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+#menu{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+img{
+    width:190px;
+}
+#menu>div{
+    
+    margin-bottom: 30px;
+}
